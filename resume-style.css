@@ -1,0 +1,162 @@
+body {
+  background-color: rgb(59, 3, 3);
+}
+
+.image {
+  display: flex;
+  background-color: white;
+  width: 310px;
+  height: 301px;
+  border-radius: 8px;
+  float: left;
+  margin-left: 300px;
+  margin-top: 50px;
+}
+
+.title {  
+  display: flex;
+  float: right;
+  padding-top: 80px;
+}
+
+
+#one {
+  display: inline;
+}
+
+#two {
+  display: flex;
+  padding-left: 5%;
+}
+
+#three {
+  display: flex;
+  float: left;
+  max-height: 100vh;
+  max-width: 100vw;
+  width: 80%;
+}
+
+#four {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-family: 'EB Garamond', serif;
+  font-size: 75px;
+  background-image: url(burberry2.jpg);
+  background-repeat: repeat;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  
+}
+
+h2 {
+  color: white;
+  font-size: 50px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Cinzel', serif;
+}
+
+h3 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-family: 'Bebas Neue';
+  font-size: 25px;
+  margin-right: 725px;
+  margin-top: -40px;
+  font-weight: 100;
+}
+
+h4 {
+  color: white;
+  font-size: 23px;
+  font-family: 'Cinzel', serif;
+}
+
+h5 {
+  color: white;
+  font-size: 30px;
+  display: flex;
+  margin-top: 150px;
+  font-family: 'Cinzel', serif;
+  margin-left: 100px;
+}
+
+li {
+  display: flex;
+  color: white;
+  margin-top: 50px;
+  font-family: 'Bebas Neue';
+  margin-left: 145px;
+}
+
+.circle {
+  background-color: grey;
+  display: inline-flex;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  }
+
+#breaks {
+  display: flex;
+  justify-content: center;
+  margin-top: -25px;
+}
+
+.phone {
+  filter: grayscale(100%);
+  display: flex;
+  height: 40px;
+  margin-left: 170px;
+}
+
+.location {
+    filter: grayscale(100%);
+    display: flex;
+    height: 80px;
+    margin-left: 150px;
+    margin-top: 40px;
+  }
+
+p {
+  display: flex;
+  color: white;
+  font-family: 'Bebas Neue';
+  padding-left: 140px;
+}
+
+.email {    
+  filter: grayscale(100%);
+  display: flex;
+  height: 80px;
+  margin-left: 150px;
+  margin-top: 40px;
+}
+
+.linkedin {
+  filter: grayscale(100%);
+  display: flex;
+  height: 80px;
+  margin-left: 150px;
+  margin-top: 40px;
+}
+
+.social-media {
+  filter: grayscale(100%);
+  display: inline-flex;
+  height: 50px;
+  width: 50px;
+  justify-content: space-evenly;
+  margin-left: 50%;
+}
