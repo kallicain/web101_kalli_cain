@@ -1,162 +1,167 @@
+* {
+  margin: 0;
+}
+
 body {
   background-color: rgb(59, 3, 3);
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: .5fr 1fr;
+  grid-template-rows: .7fr 1.3fr 1fr;
+}
+
 .image {
-  display: flex;
+  display: grid;
   background-color: white;
   width: 310px;
   height: 301px;
   border-radius: 8px;
   float: left;
-  margin-left: 300px;
-  margin-top: 50px;
+  margin-left: 60%;
+  margin-top: 100px;
 }
 
 .title {  
-  display: flex;
-  float: right;
-  padding-top: 80px;
+  display: grid;
 }
 
 
 #one {
-  display: inline;
+  display: grid;
+  grid-column: 1/2;
+  grid-row: 1/2;
 }
 
 #two {
-  display: flex;
-  padding-left: 5%;
+  display: grid;
+  grid-column: 2/2;
+  grid-row: 1/2;
 }
 
 #three {
-  display: flex;
-  float: left;
-  max-height: 100vh;
-  max-width: 100vw;
-  width: 80%;
+  display: grid;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  padding-left: 60%;
+  padding-top: 5%;
+}
+
+#three-parts {
+  display: grid;
+  grid-row: 2/3;
+  grid-column: 1/2;
+  padding-left: 60%;
+  padding-top: 5%;
 }
 
 #four {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
-h1 {
-  color: white;
-  display: flex;
-  justify-content: center;
-  font-family: 'EB Garamond', serif;
-  font-size: 75px;
-  background-image: url(burberry2.jpg);
-  background-repeat: repeat;
-  color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
-  
+  display: grid;
+  grid-column: 2/2;
+  grid-row: 1/2;
+  padding-left: 35%;
+  margin-top: 470px;
 }
 
 h2 {
   color: white;
   font-size: 50px;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
   font-family: 'Cinzel', serif;
+  margin-top: 15%;
+  margin-left: 100px;
 }
 
 h3 {
   color: white;
-  display: flex;
-  justify-content: center;
+  display: grid;
   font-family: 'Bebas Neue';
   font-size: 25px;
-  margin-right: 725px;
-  margin-top: -40px;
   font-weight: 100;
+  grid-column: 2/2;
+  grid-row: 1/1;
+  margin-top: 20%;
+  margin-left: 18%;
 }
 
 h4 {
   color: white;
-  font-size: 23px;
+  font-size: 35px;
   font-family: 'Cinzel', serif;
+  grid-column: 2/2;
+  grid-row: 3/3;
 }
 
 h5 {
   color: white;
   font-size: 30px;
-  display: flex;
-  margin-top: 150px;
+  display: grid;
   font-family: 'Cinzel', serif;
-  margin-left: 100px;
-}
-
-li {
-  display: flex;
-  color: white;
-  margin-top: 50px;
-  font-family: 'Bebas Neue';
-  margin-left: 145px;
+  grid-column: 1/2;
+  grid-row: 3/3;
+  margin-top: 170%;
 }
 
 .circle {
   background-color: grey;
-  display: inline-flex;
+  display: grid;
   margin: 10px;
-  justify-content: center;
-  align-items: center;
   }
 
 #breaks {
-  display: flex;
-  justify-content: center;
-  margin-top: -25px;
+  display: inline-flex;
+  grid-column: 2/2;
+  grid-row: 2/2;
+ 
 }
 
 .phone {
   filter: grayscale(100%);
   display: flex;
   height: 40px;
-  margin-left: 170px;
+  grid-column: 1/2;
+  grid-row: 3/3;
 }
 
 .location {
     filter: grayscale(100%);
     display: flex;
     height: 80px;
-    margin-left: 150px;
-    margin-top: 40px;
   }
 
 p {
-  display: flex;
   color: white;
   font-family: 'Bebas Neue';
-  padding-left: 140px;
 }
 
 .email {    
   filter: grayscale(100%);
   display: flex;
   height: 80px;
-  margin-left: 150px;
-  margin-top: 40px;
 }
 
 .linkedin {
   filter: grayscale(100%);
   display: flex;
   height: 80px;
-  margin-left: 150px;
-  margin-top: 40px;
 }
 
 .social-media {
   filter: grayscale(100%);
-  display: inline-flex;
+  display: flex;
   height: 50px;
   width: 50px;
   justify-content: space-evenly;
-  margin-left: 50%;
+}
+
+.professional-history p {
+  display: grid;
+  flex-direction: column;
+  padding-top: 80px;
+  
+}
+
+.professional-history {
+  display: grid;
 }
