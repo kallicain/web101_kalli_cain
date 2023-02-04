@@ -2,166 +2,193 @@
   margin: 0;
 }
 
+header {
+  background-color: #32586d;
+}
+
 body {
-  background-color: rgb(59, 3, 3);
+  background-color: #748d9a;
 }
 
 .grid-container {
   display: grid;
-  grid-template-columns: .5fr 1fr;
-  grid-template-rows: .7fr 1.3fr 1fr;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 20% 80%;
+  margin: 0% 10%;
+}
+
+header {
+  display: flex;
 }
 
 .image {
-  display: grid;
-  background-color: white;
+  display: flex;
+  background-color: #32586d;
   width: 310px;
   height: 301px;
   border-radius: 8px;
-  float: left;
-  margin-left: 60%;
-  margin-top: 100px;
+  margin-left: 150%;
+  margin-top: 20%;
 }
-
-.title {  
-  display: grid;
-}
-
 
 #one {
-  display: grid;
-  grid-column: 1/2;
-  grid-row: 1/2;
+  display: flex;
 }
 
 #two {
-  display: grid;
-  grid-column: 2/2;
-  grid-row: 1/2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 25%;
 }
 
 #three {
-  display: grid;
+  display: flex;
   grid-column: 1/2;
   grid-row: 1/2;
-  padding-left: 60%;
-  padding-top: 5%;
+  padding-top: 8%;
+  padding-left: 20%;
 }
 
 #three-parts {
   display: grid;
-  grid-row: 2/3;
   grid-column: 1/2;
-  padding-left: 60%;
   padding-top: 5%;
+  grid-gap: 25px;
 }
 
-#four {
-  display: grid;
-  grid-column: 2/2;
-  grid-row: 1/2;
-  padding-left: 35%;
-  margin-top: 470px;
+#five img {
+  display: inline-block;
+  margin: 10px;
+  width: 65px;
+  height: 65px;
+}
+
+#five a {
+  margin: 10px;
 }
 
 h2 {
-  color: white;
+  color: #192029;
   font-size: 50px;
-  display: grid;
+  display: flex;
   font-family: 'Cinzel', serif;
-  margin-top: 15%;
-  margin-left: 100px;
 }
 
 h3 {
-  color: white;
-  display: grid;
+  color: #86655f;
+  display: flex;
   font-family: 'Bebas Neue';
   font-size: 25px;
   font-weight: 100;
-  grid-column: 2/2;
-  grid-row: 1/1;
-  margin-top: 20%;
-  margin-left: 18%;
 }
 
 h4 {
-  color: white;
+  color: #303d4d;
   font-size: 35px;
   font-family: 'Cinzel', serif;
-  grid-column: 2/2;
-  grid-row: 3/3;
+  padding-top: 5%;
+  padding-left: 30%;
 }
 
 h5 {
-  color: white;
+  color: #303d4d;
   font-size: 30px;
-  display: grid;
+  display: flex;
+  white-space: nowrap;
+  padding-top: 5%;
   font-family: 'Cinzel', serif;
   grid-column: 1/2;
-  grid-row: 3/3;
-  margin-top: 170%;
-}
-
-.circle {
-  background-color: grey;
-  display: grid;
-  margin: 10px;
-  }
-
-#breaks {
-  display: inline-flex;
-  grid-column: 2/2;
-  grid-row: 2/2;
- 
 }
 
 .phone {
-  filter: grayscale(100%);
+  filter: hue-rotate(-0.90turn);
   display: flex;
   height: 40px;
-  grid-column: 1/2;
-  grid-row: 3/3;
+  justify-content: center;
 }
 
 .location {
-    filter: grayscale(100%);
     display: flex;
     height: 80px;
+    justify-content: center;
   }
 
-p {
-  color: white;
+  p {
+    color: #303d4d;
+    font-family: 'Bebas Neue';
+    font-size: 25px;
+    letter-spacing: .1rem;
+  }
+
+#three-parts p {
+  padding-left: 38%;
+  font-size: 20px;
+  color: #855950;
+}
+
+#four p {
+  padding-left: 30.75%;
+}
+
+#four article {
+  padding-left: 15%;
+  padding-right: 30%;
+}
+
+
+article {
+  color: #855950;
   font-family: 'Bebas Neue';
+  font-size: 20px;
+  letter-spacing: .1rem;
 }
 
 .email {    
-  filter: grayscale(100%);
   display: flex;
   height: 80px;
+  justify-content: center;
 }
 
 .linkedin {
-  filter: grayscale(100%);
+  filter: hue-rotate(0.85turn);
   display: flex;
   height: 80px;
+  justify-content: center;
 }
 
 .social-media {
-  filter: grayscale(100%);
   display: flex;
-  height: 50px;
-  width: 50px;
-  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
 }
 
 .professional-history p {
-  display: grid;
+  display: flex;
   flex-direction: column;
   padding-top: 80px;
-  
 }
 
 .professional-history {
   display: grid;
+  grid-gap: 25px;
 }
+
+.history {
+  display: flex;
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.social-media-icons {
+  display: inline-block;
+  justify-content: space-around;
+  padding-top: 5%;
+}
+
+.social-media-links {
+  display: inline-block;
+  padding: 1% 0%;
+}
+
